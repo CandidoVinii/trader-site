@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CandidoVinii/trader-site/static/css/main.160c4a75.css",
+    "main.js": "/CandidoVinii/trader-site/static/js/main.6679fade.js",
+    "static/media/WhatsApp Image 2022-07-16 at 16.04.45.jpeg": "/CandidoVinii/trader-site/static/media/WhatsApp Image 2022-07-16 at 16.04.45.eced4edf553f71b9d020.jpeg",
+    "index.html": "/CandidoVinii/trader-site/index.html",
+    "main.160c4a75.css.map": "/CandidoVinii/trader-site/static/css/main.160c4a75.css.map",
+    "main.6679fade.js.map": "/CandidoVinii/trader-site/static/js/main.6679fade.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.160c4a75.css",
+    "static/js/main.6679fade.js"
+  ]
+}
