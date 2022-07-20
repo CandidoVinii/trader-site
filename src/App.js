@@ -6,7 +6,7 @@ import ShopNow from './pages/ShopNow';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename={process.env.PUBLIC_URL}>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
