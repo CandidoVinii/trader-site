@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import imageLogo from "../assets/WhatsApp Image 2022-07-16 at 16.04.45.jpeg"
+import imageShop from "../assets/image-shop.jpeg"
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -18,7 +19,7 @@ export default function ShopNow() {
                 <Carousel width="640px" height="840px" interval="10000" infiniteLoop="true" autoPlay="true">
                     <div class="flex p-6 font-mono bg-white">
                         <div class="flex-none w-48 mb-10 relative z-10 before:absolute before:top-1 before:left-1 before:w-full before:h-full before:bg-rose-400 before:rounded-lg">
-                            <img src={imageLogo} alt="" class="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
+                            <img src={imageShop} alt="" class="absolute z-10 inset-0 w-full h-full object-cover rounded-lg" loading="lazy" />
                         </div>
                         <form class="flex-auto pl-6">
                             <div class="relative flex flex-wrap items-baseline pb-6 before:bg-black before:absolute before:-top-6 before:bottom-0 before:-left-60 before:-right-6">
